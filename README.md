@@ -2,6 +2,7 @@
 
 # Resumo do projeto
 Exemplo de uma landing page de serviços para pet, totalmente responsiva.
+Link: https://alecsander-castro.github.io/lading-page-pethome/
 <br/>
 
 
