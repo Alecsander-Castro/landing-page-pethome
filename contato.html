@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="styles/global.css"/>
+    <title>Contato</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand  text-light" href="#"> <img src="assets/pet2.png" alt="logo" width="50" height="50" > PetHome</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item pe-5">
+                <a class="nav-link text-light" href="index.html">Home</a>
+              </li>
+              <li class="nav-item pe-5">
+                <a class="nav-link text-light" href="servicos.html">Serviços</a>
+              </li>
+              <li class="nav-item pe-5">
+                <a class="nav-link text-light" href="contato.html">Contato</a>
+              </li>
+                </ul>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <form>
+          <div class="mb-3">
+              <label for="exampleInputName1" class="form-label fw-bold">Nome</label>
+              <input type="text" class="form-control" id="exampleInputName1" placeholder="Digite o seu nome" required>
+          </div>
+          <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label fw-bold">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite o seu e-mail" required>
+              <div id="emailHelp" class="form-text fw-bold">Nós nunca compatilharemos o seu e-mail com uma outra pessoa!</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label fw-bold">Contato</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Escreva aqui" required></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+      </form>
+      </div>
+    </main>
+    <footer>
+      <div class="container d-flex justify-content-center">
+          <p class="text-light pt-3"><span class="text-light">PetHome</span>&copy;2022</p>
+      </div>
+  </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
